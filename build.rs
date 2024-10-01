@@ -14,8 +14,8 @@ fn main() {
     let default_lib = "/usr/lib"; // Default for Unix-like systems
 
     // Check for TA-Lib on Windows or a custom location
-    let custom_include = "C:/TA-Lib/c/include"; // Custom path for Windows
-    let custom_lib = "C:/TA-Lib/c/lib";         // Custom library path for Windows
+    let custom_include = "C:/ta-lib/c/include"; // Custom path for Windows
+    let custom_lib = "C:/ta-lib/c/lib";         // Custom library path for Windows
 
     // Check if the default include path exists
     if fs::metadata(default_include).is_ok() {
