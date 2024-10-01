@@ -19,7 +19,7 @@ fn main() {
 
     // Set up the include path explicitly for Windows (if needed)
     if target_os == "windows" {
-        println!("cargo:rustc-link-search=native=C:/TA-Lib/c/lib");
+        println!("cargo:rustc-link-search=native=C:/ta-lib/");
     }
 
     // The bindgen::Builder is the main entry point
